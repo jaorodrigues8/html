@@ -1,30 +1,43 @@
- main{
-    width:100%;
- }
- .image {
-    width: 500px;
-    height: 500px;
- }
+main {
+        width: 100%;
+        }
 
- .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
- .text-frutas{
-  font-size: 200px;
+        .image {
+            width: 500px;
+                height: 500px;
+                }
 
- }
-  @media(max-width: 1020px){
-     .container{
-    flex-direction: column;
+                .container {
+                    display: flex;
+                        justify-content: center;
+                            align-items: center;
+                            }
 
+                            .text-frutas {
+                                font-size: 200px;
+                                }
+
+
+                                @media (max-width: 1020px) {
+                                    .container {
+                                            flex-direction: column;
+                                                }
+
+                                                    .image {
+                                                            width: 200px;
+                                                                    height: 200px;
+                                                                        }
+
+                                                                            .text-frutas {
+                                                                                    font-size: 100px;
+                                                                                        }
+                                                                                        }
+
+
+                                                                                        @media (max-width: 450px) and (orientation: landscape) {
+                                                                                            .text-frutas {
+                                                                                                    color: blue;
+                                                                                                        }
+                                                                                                        }
+                                                                                                        
 }
-.image{
-    width: 200px ;
-    height: 200px;
-}
- .text-frutas{
-  font-size: 100px;
-
- }
